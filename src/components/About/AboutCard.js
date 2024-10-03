@@ -8,23 +8,20 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Currently pursuing a <span className="purple">Masters of Science in Computer Science</span> at <span className="purple">Northeastern University's Khoury College of Computer Science</span>,
-            I am a passionate individual with a clear vision: to secure a role in <span className="purple">full-stack software development</span>. My journey has been marked
-            by a relentless pursuit of learning, a knack for swiftly adapting to diverse tech stacks, and an unwavering commitment to overcoming
-            <span className="purple">challenges</span>. I thrive on the thrill of finding solutions, never accepting 'no' for an answer, and demonstrating flexibility as a <span className="purple">team player</span>.
-            Fueled by a sincere passion, paired with an unwavering work ethic and a <span className="purple">competitive drive</span>, I thrive in the world of technology. My unique
-            strength lies in consistently discovering answers to problems that may seem out of my <span className="purple">league</span>. Whether it's tackling complex tech issues or
-            excelling in building professional <span className="purple">relationships</span>, fostering <span className="purple">connections</span>, crafting effective marketing strategies, and delivering compelling <span className="purple">pitches</span>,
-            I bring a dynamic blend of skills to the table.
-            What sets me apart is not just my ability to find solutions, but also my dedication to continuous <span className="purple">learning</span> and <span className="purple">innovation</span>. I've tackled projects that
-            demanded <span className="purple">ingenuity</span> and have always emerged with successful outcomes. My coworkers would describe me as a passion-driven <span className="purple">team player</span>, proficient in <span className="purple">coding</span> and <span className="purple">innovation</span>.
-            I take pride in going above and beyond to learn and implement new <span className="purple">technologies</span>, contributing to a <span className="purple">collaborative</span> and <span className="purple">positive work environment</span>.
-            As I embark on the next phase of my <span className="purple">career</span>, I am eager to bring my unique <span className="purple">skill set</span> and <span className="purple">boundless enthusiasm</span> for <span className="purple">learning</span> to a role that aligns with my passion for
-            <span className="purple">technology</span> and <span className="purple">problem-solving</span>. If you're looking for a <span className="purple">dedicated</span> and <span className="purple">innovative team member</span>, I'm ready to contribute my <span className="purple">skills</span> and make a positive <span className="purple">impact</span>.
-            Let's connect and explore the <span className="purple">possibilities</span> together.
-
+            As a current <span className="purple">Master of Science in Computer Science</span> student at <span className="purple">Northeastern University's Khoury College of Computer Science</span>, 
+            I am driven by a passion for creating impactful solutions in <span className="purple">Machine Learning</span> and <span className="purple">Artificial Intelligence</span>.
+            My journey through diverse projects has given me the ability to adapt quickly to new technologies, optimize processes, and solve complex challenges 
+            with a focus on delivering high-performance results.
+            
+            I specialize in designing and deploying <span className="purple">scalable</span> machine learning models, building end-to-end data pipelines, and leveraging cloud technologies for 
+            <span className="purple">MLOps</span>. From predicting trends and automating workflows to driving efficiencies across teams, my work is focused on innovation and creating real-world impact. 
+            My proactive approach ensures continuous learning, and I thrive in collaborative environments where I can contribute to a team's success while exploring new solutions.
+            
+            Whether I am tackling cutting-edge AI projects or optimizing business operations through data-driven insights, I always maintain a forward-thinking mindset, 
+            ensuring that I bring <span className="purple">reliability</span> and <span className="purple">leadership</span> to everything I do. If you are looking for someone who is not just technically skilled, 
+            but also passionate about leveraging technology to solve real-world problems, I am excited to explore how my background can bring value to your team.
           </p>
-          <footer className="blockquote-footer">Meet</footer>
+          <footer className="blockquote-footer">Ayush Desai</footer>
         </blockquote>
       </Card.Body>
     </Card>
