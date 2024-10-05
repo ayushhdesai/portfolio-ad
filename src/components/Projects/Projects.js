@@ -34,7 +34,7 @@ function Projects() {
             <ProjectCard
               imgPath={ml}
               isBlog={false}
-              title="Bilingual Text Translation"
+              title="BiLingual Text Translation"
               description=" Deployed and created LSTM and Transformer architecture from scratch to translate from English to German and French to English
 respectively, achieving an accuracy of 91% for both algorithms."
               ghLink="https://github.com/ayushhdesai/cs5100_project/"
