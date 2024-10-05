@@ -22,7 +22,18 @@ function Projects() {
             <ProjectCard
               imgPath={photobooth}
               isBlog={false}
-              title="PhotoBooth"
+              title="ImageWizard"
+              description="Implemented a Java-based Image Processing Application using MVC design with Swing for GUI, offering interactive text UI, batch processing, and various image manipulations like color adjustments, flipping, blur, and compression. Utilized Command Callback and Command Design Patterns, adhering to SOLID principles, and employed jUnit for testing."
+              ghLink="https://github.com/ayushhdesai/ImageProcessor/"
+              demoLink="https://github.com/ayushhdesai/ImageProcessor/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={photobooth}
+              isBlog={false}
+              title="ImageWizard"
               description="Implemented a Java-based Image Processing Application using MVC design with Swing for GUI, offering interactive text UI, batch processing, and various image manipulations like color adjustments, flipping, blur, and compression. Utilized Command Callback and Command Design Patterns, adhering to SOLID principles, and employed jUnit for testing."
               ghLink="https://github.com/ayushhdesai/ImageProcessor/"
               demoLink="https://github.com/ayushhdesai/ImageProcessor/"
