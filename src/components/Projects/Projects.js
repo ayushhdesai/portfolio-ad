@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import ml from "../../Assets/Projects/LSTM.png"
+import ml from "../../Assets/Projects/LSTM.png";
+import img1 from "../../Assets/Projects/image.png";
 import photobooth from "../../Assets/Projects/PhotoBooth.png";
 
 function Projects() {
@@ -39,6 +40,17 @@ function Projects() {
 respectively, achieving an accuracy of 91% for both algorithms."
               ghLink="https://github.com/ayushhdesai/cs5100_project/"
               demoLink="https://github.com/ayushhdesai/cs5100_project/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img1}
+              isBlog={false}
+              title="HawkEye :  Candelstick Pattern Recognition"
+              description=" Developed a Python-based application to recognize and predict stock market trends using candlestick patterns. Utilized the Yahoo Finance API to fetch real-time data and implemented a machine learning model to predict future stock prices based on historical data."
+              ghLink="https://github.com/momo-senpai/be_project/"
+              demoLink="https://github.com/momo-senpai/be_project/"
             />
           </Col>
 
