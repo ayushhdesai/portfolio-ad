@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import ml from "../../Assets/Projects/LSTM.png";
 import img1 from "../../Assets/Projects/image.png";
+import img2 from "../../Assets/Projects/image2.png";
 import photobooth from "../../Assets/Projects/PhotoBooth.png";
 
 function Projects() {
@@ -36,7 +37,7 @@ function Projects() {
               imgPath={ml}
               isBlog={false}
               title="BiLingual Text Translation"
-              description=" Deployed and created LSTM and Transformer architecture from scratch to translate from English to German and French to English
+              description="Deployed and created LSTM and Transformer architecture from scratch to translate from English to German and French to English
 respectively, achieving an accuracy of 91% for both algorithms."
               ghLink="https://github.com/ayushhdesai/cs5100_project/"
               demoLink="https://github.com/ayushhdesai/cs5100_project/"
@@ -48,9 +49,20 @@ respectively, achieving an accuracy of 91% for both algorithms."
               imgPath={img1}
               isBlog={false}
               title="HawkEye :  Candelstick Pattern Recognition"
-              description=" Developed a Python-based application to recognize and predict stock market trends using candlestick patterns. Utilized the Yahoo Finance API to fetch real-time data and implemented a machine learning model to predict future stock prices based on historical data."
+              description="Developed a Python-based application to recognize and predict stock market trends using candlestick patterns. Utilized the Yahoo Finance API to fetch real-time data and implemented a machine learning model to predict future stock prices based on historical data."
               ghLink="https://github.com/momo-senpai/be_project/"
               demoLink="https://github.com/momo-senpai/be_project/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img2}
+              isBlog={false}
+              title="Mental health prediction in IT workers"
+              description="Developed a Python-based application to predict mental health issues in IT workers using machine learning algorithms. Utilized the Kaggle dataset to train the model and achieved an accuracy of 85%."
+              ghLink="https://github.com/ayushhdesai/"
+              demoLink="https://colab.research.google.com/drive/1QQBHn1JEWNUCOaCFo8nwRIH0pK6Z0bgN?usp=sharing/"
             />
           </Col>
 
