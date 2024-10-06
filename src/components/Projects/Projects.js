@@ -60,9 +60,9 @@ respectively, achieving an accuracy of 91% for both algorithms."
               imgPath={img2}
               isBlog={false}
               title="Mental health prediction in IT workers"
-              description="Developed a Python-based application to predict mental health issues in IT workers using machine learning algorithms. Utilized the Kaggle dataset to train the model and achieved an accuracy of 85%."
+              description=" Developed a machine learning model to predict mental health issues in IT workers based on their responses to a survey. Utilized the Kaggle dataset and employed various algorithms like Random Forest, SVM, and Logistic Regression to achieve an accuracy of 85%."
               ghLink="https://github.com/ayushhdesai/"
-              demoLink="https://colab.research.google.com/drive/1QQBHn1JEWNUCOaCFo8nwRIH0pK6Z0bgN?usp=sharing/"
+              demoLink="https://colab.research.google.com/drive/1QQBHn1JEWNUCOaCFo8nwRIH0pK6Z0bgN?usp=sharing"
             />
           </Col>
 
