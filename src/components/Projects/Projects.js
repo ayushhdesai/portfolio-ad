@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import ml from "../../Assets/Projects/LSTM.png";
 import img1 from "../../Assets/Projects/image.png";
-import img2 from "../../Assets/Projects/image2.png";
+import img2 from "../../Assets/Projects/img2.png";
 import photobooth from "../../Assets/Projects/PhotoBooth.png";
 
 function Projects() {
