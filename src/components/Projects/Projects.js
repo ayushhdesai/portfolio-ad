@@ -7,6 +7,7 @@ import img1 from "../../Assets/Projects/image.png";
 import img2 from "../../Assets/Projects/img2.png";
 import img3 from "../../Assets/Projects/img3.png";
 import img4 from "../../Assets/Projects/img4.png";
+import img5 from "../../Assets/Projects/img5.jpg";
 import photobooth from "../../Assets/Projects/PhotoBooth.png";
 
 function Projects() {
@@ -86,7 +87,18 @@ respectively, achieving an accuracy of 91% for both algorithms."
               title="Twitter Clone"
               description="Developed a Twitter clone using React, Node.js, Express, and MongoDB. Implemented features like user authentication, tweet posting, like and comment functionality, and user profile management. Utilized RESTful APIs and JWT tokens for secure communication between the client and server."
               ghLink="https://github.com/ayushhdesai/tuiter-react-web-app/"
-              demoLink="https://a6-ayush-desai-webdev.netlify.app/tuiter"
+              demoLink="https://github.com/ayushhdesai/tuiter-react-web-app/"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img5}
+              isBlog={false}
+              title="Job Portal"
+              description="Developed a job portal using React, Node.js, Express, and MongoDB. Implemented features like user authentication, job posting, job search, and application management. Utilized RESTful APIs and JWT tokens for secure communication between the client and server."
+              ghLink="https://github.com/ayushhdesai/dbms_project/"
+              demoLink="https://github.com/ayushhdesai/dbms_project/"
             />
           </Col>
 
