@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import ml from "../../Assets/Projects/LSTM.png";
 import img1 from "../../Assets/Projects/image.png";
 import img2 from "../../Assets/Projects/img2.png";
+import img3 from "../../Assets/Projects/img3.png";
 import photobooth from "../../Assets/Projects/PhotoBooth.png";
 
 function Projects() {
@@ -63,6 +64,17 @@ respectively, achieving an accuracy of 91% for both algorithms."
               description=" Developed a machine learning model to predict mental health issues in IT workers based on their responses to a survey. Utilized the Kaggle dataset and employed various algorithms like Random Forest, SVM, and Logistic Regression to achieve an accuracy of 85%."
               ghLink="https://github.com/ayushhdesai/"
               demoLink="https://colab.research.google.com/drive/1QQBHn1JEWNUCOaCFo8nwRIH0pK6Z0bgN?usp=sharing"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img3}
+              isBlog={false}
+              title="SpaceInvader"
+              description="Python-based Space Invader game using Pygame library. Implemented various features like player movement, enemy movement, bullet firing, and collision detection. Utilized object-oriented programming concepts and game development techniques to create a fun and interactive game."
+              ghLink="https://github.com/ayushhdesai/SpaceInvader/"
+              demoLink="https://github.com/ayushhdesai/SpaceInvader/"
             />
           </Col>
 
