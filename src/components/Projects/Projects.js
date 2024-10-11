@@ -96,9 +96,20 @@ respectively, achieving an accuracy of 91% for both algorithms."
               imgPath={img5}
               isBlog={false}
               title="Job Portal"
-              description="Developed a job portal using React, Node.js, Express, and MongoDB. Implemented features like user authentication, job posting, job search, and application management. Utilized RESTful APIs and JWT tokens for secure communication between the client and server."
+              description="Developed a job portal using HTML, CSS, Flask, and SQL. Implemented features like user authentication, job posting, job search, and application management. Utilized RESTful APIs and JWT tokens for secure communication between the client and server."
               ghLink="https://github.com/ayushhdesai/dbms_project/"
               demoLink="https://github.com/ayushhdesai/dbms_project/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img6}
+              isBlog={false}
+              title="Book Discussion Forum"
+              description="Developed a book discussion forum using React, Node.js, Express, and MongoD. Implemented features like user authentication, book posting, book search, and discussion management. Utilized RESTful APIs and JWT tokens for secure communication between the client and server."
+              ghLink="https://github.com/ayushhdesai/webdev-project-react/"
+              demoLink="https://github.com/ayushhdesai/webdev-project-react/"
             />
           </Col>
 
