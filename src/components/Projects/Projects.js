@@ -8,6 +8,7 @@ import img2 from "../../Assets/Projects/img2.png";
 import img3 from "../../Assets/Projects/img3.png";
 import img4 from "../../Assets/Projects/img4.png";
 import img5 from "../../Assets/Projects/img5.jpg";
+import img6 from "../../Assets/Projects/img6.png";
 import photobooth from "../../Assets/Projects/PhotoBooth.png";
 
 function Projects() {
