@@ -17,20 +17,19 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Works</strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={photobooth}
               isBlog={false}
               title="ImageWizard"
-              description="Implemented a Java-based Image Processing Application using MVC design with Swing for GUI, offering interactive text UI, batch processing, and various image manipulations like color adjustments, flipping, blur, and compression. Utilized Command Callback and Command Design Patterns, adhering to SOLID principles, and employed jUnit for testing."
+              description="Built a Java-based Image Processing Application using the MVC design pattern with Swing for the GUI. Implemented interactive text UI, batch processing, and various image manipulations like color adjustments, flipping, blur, and compression. Followed SOLID principles and applied jUnit testing."
               ghLink="https://github.com/ayushhdesai/ImageProcessor/"
               demoLink="https://github.com/ayushhdesai/ImageProcessor/"
             />
@@ -40,9 +39,8 @@ function Projects() {
             <ProjectCard
               imgPath={ml}
               isBlog={false}
-              title="BiLingual Text Translation"
-              description="Deployed and created LSTM and Transformer architecture from scratch to translate from English to German and French to English
-respectively, achieving an accuracy of 91% for both algorithms."
+              title="Bilingual Text Translation"
+              description="Developed LSTM and Transformer architectures from scratch to translate between English, German, and French. Achieved 91% accuracy in both language models. Focused on efficient data processing and robust machine learning techniques."
               ghLink="https://github.com/ayushhdesai/cs5100_project/"
               demoLink="https://github.com/ayushhdesai/cs5100_project/"
             />
@@ -52,8 +50,8 @@ respectively, achieving an accuracy of 91% for both algorithms."
             <ProjectCard
               imgPath={img1}
               isBlog={false}
-              title="HawkEye :  Candelstick Pattern Recognition"
-              description="Developed a Python-based application to recognize and predict stock market trends using candlestick patterns. Utilized the Yahoo Finance API to fetch real-time data and implemented a machine learning model to predict future stock prices based on historical data."
+              title="HawkEye: Candlestick Pattern Recognition"
+              description="Created a Python-based application to predict stock trends using candlestick patterns. Integrated real-time data from the Yahoo Finance API and built a machine learning model for stock price prediction based on historical data."
               ghLink="https://github.com/momo-senpai/be_project/"
               demoLink="https://github.com/momo-senpai/be_project/"
             />
@@ -63,8 +61,8 @@ respectively, achieving an accuracy of 91% for both algorithms."
             <ProjectCard
               imgPath={img2}
               isBlog={false}
-              title="Mental health prediction in IT workers"
-              description=" Developed a machine learning model to predict mental health issues in IT workers based on their responses to a survey. Utilized the Kaggle dataset and employed various algorithms like Random Forest, SVM, and Logistic Regression to achieve an accuracy of 85%."
+              title="Mental Health Prediction in IT Workers"
+              description="Built a machine learning model to predict mental health conditions in IT workers using survey responses. Leveraged Kaggle datasets and employed models like Random Forest, SVM, and Logistic Regression, achieving an accuracy of 85%."
               ghLink="https://github.com/ayushhdesai/"
               demoLink="https://colab.research.google.com/drive/1QQBHn1JEWNUCOaCFo8nwRIH0pK6Z0bgN?usp=sharing"
             />
@@ -75,7 +73,7 @@ respectively, achieving an accuracy of 91% for both algorithms."
               imgPath={img3}
               isBlog={false}
               title="SpaceInvader"
-              description="Python-based Space Invader game using Pygame library. Implemented various features like player movement, enemy movement, bullet firing, and collision detection. Utilized object-oriented programming concepts and game development techniques to create a fun and interactive game."
+              description="Developed a Python-based Space Invader game using the Pygame library. Implemented player movement, enemy interactions, and bullet collision detection using object-oriented programming concepts."
               ghLink="https://github.com/ayushhdesai/SpaceInvader/"
               demoLink="https://github.com/ayushhdesai/SpaceInvader/"
             />
@@ -86,18 +84,18 @@ respectively, achieving an accuracy of 91% for both algorithms."
               imgPath={img4}
               isBlog={false}
               title="Twitter Clone"
-              description="Developed a Twitter clone using React, Node.js, Express, and MongoDB. Implemented features like user authentication, tweet posting, like and comment functionality, and user profile management. Utilized RESTful APIs and JWT tokens for secure communication between the client and server."
+              description="Developed a Twitter-like application using React, Node.js, Express, and MongoDB. Added features like user authentication, tweet posting, likes, comments, and user profile management. Used JWT tokens and RESTful APIs for secure communication."
               ghLink="https://github.com/ayushhdesai/tuiter-react-web-app/"
               demoLink="https://github.com/ayushhdesai/tuiter-react-web-app/"
             />
           </Col>
-          
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={img5}
               isBlog={false}
               title="Job Portal"
-              description="Developed a job portal using HTML, CSS, Flask, and SQL. Implemented features like user authentication, job posting, job search, and application management. Utilized RESTful APIs and JWT tokens for secure communication between the client and server."
+              description="Developed a full-featured job portal using HTML, CSS, Flask, and SQL. Implemented functionalities like user authentication, job posting, searching, and application management. Used JWT tokens and REST APIs for secure user interaction."
               ghLink="https://github.com/ayushhdesai/dbms_project/"
               demoLink="https://github.com/ayushhdesai/dbms_project/"
             />
@@ -108,12 +106,11 @@ respectively, achieving an accuracy of 91% for both algorithms."
               imgPath={img6}
               isBlog={false}
               title="Book Discussion Forum"
-              description="Developed a book discussion forum using React, Node.js, Express, and MongoD. Implemented features like user authentication, book posting, book search, and discussion management. Utilized RESTful APIs and JWT tokens for secure communication between the client and server."
+              description="Built a book discussion platform using React, Node.js, Express, and MongoDB. Integrated features for user authentication, book posts, search, and discussion threads. Implemented secure communication using RESTful APIs and JWT tokens."
               ghLink="https://github.com/ayushhdesai/webdev-project-react/"
               demoLink="https://github.com/ayushhdesai/webdev-project-react/"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>
