@@ -23,18 +23,11 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
 
+        {/* Machine Learning Section */}
+        <h2 className="project-subheading">
+          Machine Learning <strong className="purple">Projects</strong>
+        </h2>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={photobooth}
-              isBlog={false}
-              title="ImageWizard"
-              description="Built a Java-based Image Processing Application using the MVC design pattern with Swing for the GUI. Implemented interactive text UI, batch processing, and various image manipulations like color adjustments, flipping, blur, and compression. Followed SOLID principles and applied jUnit testing."
-              ghLink="https://github.com/ayushhdesai/ImageProcessor/"
-              demoLink="https://github.com/ayushhdesai/ImageProcessor/"
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ml}
@@ -67,6 +60,23 @@ function Projects() {
               demoLink="https://colab.research.google.com/drive/1QQBHn1JEWNUCOaCFo8nwRIH0pK6Z0bgN?usp=sharing"
             />
           </Col>
+        </Row>
+
+        {/* Software Related Section */}
+        <h2 className="project-subheading">
+          Software <strong className="purple">Projects</strong>
+        </h2>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={photobooth}
+              isBlog={false}
+              title="ImageWizard"
+              description="Built a Java-based Image Processing Application using the MVC design pattern with Swing for the GUI. Implemented interactive text UI, batch processing, and various image manipulations like color adjustments, flipping, blur, and compression. Followed SOLID principles and applied jUnit testing."
+              ghLink="https://github.com/ayushhdesai/ImageProcessor/"
+              demoLink="https://github.com/ayushhdesai/ImageProcessor/"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -78,7 +88,13 @@ function Projects() {
               demoLink="https://github.com/ayushhdesai/SpaceInvader/"
             />
           </Col>
+        </Row>
 
+        {/* Full Stack Projects Section */}
+        <h2 className="project-subheading">
+          Full Stack <strong className="purple">Projects</strong>
+        </h2>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={img4}
