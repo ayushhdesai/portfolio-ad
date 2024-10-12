@@ -23,9 +23,37 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
 
+        {/* Software Related Section */}
+        <h2 className="project-subheading">
+        <strong className="purple">Software Projects</strong>
+        </h2>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={photobooth}
+              isBlog={false}
+              title="ImageWizard"
+              description="Built a Java-based Image Processing Application using the MVC design pattern with Swing for the GUI. Implemented interactive text UI, batch processing, and various image manipulations like color adjustments, flipping, blur, and compression. Followed SOLID principles and applied jUnit testing."
+              ghLink="https://github.com/ayushhdesai/ImageProcessor/"
+              demoLink="https://github.com/ayushhdesai/ImageProcessor/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img3}
+              isBlog={false}
+              title="SpaceInvader"
+              description="Developed a Python-based Space Invader game using the Pygame library. Implemented player movement, enemy interactions, and bullet collision detection using object-oriented programming concepts."
+              ghLink="https://github.com/ayushhdesai/SpaceInvader/"
+              demoLink="https://github.com/ayushhdesai/SpaceInvader/"
+            />
+          </Col>
+        </Row>
+
         {/* Machine Learning Section */}
         <h2 className="project-subheading">
-          Machine Learning <strong className="purple">Projects</strong>
+        <strong className="purple">Machine Learning Projects</strong>
         </h2>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -62,37 +90,9 @@ function Projects() {
           </Col>
         </Row>
 
-        {/* Software Related Section */}
-        <h2 className="project-subheading">
-          Software <strong className="purple">Projects</strong>
-        </h2>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={photobooth}
-              isBlog={false}
-              title="ImageWizard"
-              description="Built a Java-based Image Processing Application using the MVC design pattern with Swing for the GUI. Implemented interactive text UI, batch processing, and various image manipulations like color adjustments, flipping, blur, and compression. Followed SOLID principles and applied jUnit testing."
-              ghLink="https://github.com/ayushhdesai/ImageProcessor/"
-              demoLink="https://github.com/ayushhdesai/ImageProcessor/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={img3}
-              isBlog={false}
-              title="SpaceInvader"
-              description="Developed a Python-based Space Invader game using the Pygame library. Implemented player movement, enemy interactions, and bullet collision detection using object-oriented programming concepts."
-              ghLink="https://github.com/ayushhdesai/SpaceInvader/"
-              demoLink="https://github.com/ayushhdesai/SpaceInvader/"
-            />
-          </Col>
-        </Row>
-
         {/* Full Stack Projects Section */}
         <h2 className="project-subheading">
-          Full Stack <strong className="purple">Projects</strong>
+        <strong className="purple">Full Stack Projects</strong>
         </h2>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
