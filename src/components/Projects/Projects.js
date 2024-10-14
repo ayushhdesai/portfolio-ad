@@ -127,6 +127,18 @@ function Projects() {
               demoLink="https://github.com/ayushhdesai/webdev-project-react/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img6}
+              isBlog={false}
+              title="Android App: Book Discussion Forum"
+              description="Built a book discussion platform using React, Node.js, Express, and MongoDB. Integrated features for user authentication, book posts, search, and discussion threads. Implemented secure communication using RESTful APIs and JWT tokens."
+              ghLink="https://github.com/ayushhdesai/webdev-project-react/"
+              demoLink="https://github.com/ayushhdesai/webdev-project-react/"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
