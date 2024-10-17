@@ -135,7 +135,7 @@ function Projects() {
         </h2>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={img6}
+              imgPath={img7}
               isBlog={false}
               title="Arcane Vpn - Android App"
               description="Developed a VPN application for Android using Java and Android Studio. Implemented secure VPN connections, server selection, and user authentication. Integrated features like ad blocking, data encryption, and secure browsing."
