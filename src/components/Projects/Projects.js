@@ -9,6 +9,7 @@ import img3 from "../../Assets/Projects/img3.png";
 import img4 from "../../Assets/Projects/img4.png";
 import img5 from "../../Assets/Projects/img5.jpg";
 import img6 from "../../Assets/Projects/img6.png";
+import img7 from "../../Assets/Projects/img7.jpg";
 import photobooth from "../../Assets/Projects/PhotoBooth.png";
 
 function Projects() {
@@ -125,6 +126,21 @@ function Projects() {
               description="Built a book discussion platform using React, Node.js, Express, and MongoDB. Integrated features for user authentication, book posts, search, and discussion threads. Implemented secure communication using RESTful APIs and JWT tokens."
               ghLink="https://github.com/ayushhdesai/webdev-project-react/"
               demoLink="https://github.com/ayushhdesai/webdev-project-react/"
+            />
+          </Col>
+
+          {/* Android Projects Section */}
+        <h2 className="project-subheading">
+        <strong className="purple">Android Projects</strong>
+        </h2>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img6}
+              isBlog={false}
+              title="Arcane Vpn - Android App"
+              description="Developed a VPN application for Android using Java and Android Studio. Implemented secure VPN connections, server selection, and user authentication. Integrated features like ad blocking, data encryption, and secure browsing."
+              ghLink="https://github.com/ayushhdesai/"
+              demoLink="https://github.com/ayushhdesai/"
             />
           </Col>
 
